@@ -16,5 +16,9 @@ app.get('/help', function(req, res) {
   res.render('help', { message: 'Congrats, you just set up your app!' });
 });
 
+app.get('/xiebo/kepu', function(req, res) {
+  res.render('xiebo_kepu', { message: 'Congrats, you just set up your app!' });
+});
+
 // 最后，必须有这行代码来使 express 响应 HTTP 请求
 app.listen();
